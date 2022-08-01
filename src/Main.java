@@ -25,7 +25,7 @@ public class Main {
         double recommendSumForRichOlder = (wantedSum / 100 * 9.8 + wantedSum) / 12;
         double recommendSumForRichYoung = (wantedSum / 100 * 10.3 + wantedSum) / 12;
         String agreeCredit = "Одобрено";
-        String falseCredit = "Отказано";
+        String falseCredit = "Отказано ";
 
 
         if (newAge < 23 && recommendSumForRichYoung > newSalary / 2 && newSalary > 80000) {
